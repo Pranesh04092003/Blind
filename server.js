@@ -18,7 +18,7 @@ mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/blind')
 
 // Define Schema
 const dataSchema = new mongoose.Schema({
-    title: {
+    character: {
         type: String,
         required: true
     }
